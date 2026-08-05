@@ -1,0 +1,113 @@
+import { StockAsset } from '../types';
+
+export const STOCK_ASSETS: StockAsset[] = [
+  // Videos
+  {
+    id: 'vid-nature-waterfall',
+    title: 'Cinematic Waterfall',
+    type: 'video',
+    category: 'Sample Video',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    duration: 15,
+    thumbnail: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=400&q=80',
+    description: 'Breathtaking 4K nature video of a cascading mountain waterfall.',
+  },
+  {
+    id: 'vid-cyberpunk-city',
+    title: 'Neon Cyber City Loop',
+    type: 'video',
+    category: 'Sample Video',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+    duration: 12,
+    thumbnail: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80',
+    description: 'Futuristic night cityscape with glowing neon lights and motion.',
+  },
+  {
+    id: 'vid-green-screen-host',
+    title: 'Green Screen Presenter',
+    type: 'video',
+    category: 'Green Screen',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    duration: 10,
+    thumbnail: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=400&q=80',
+    description: 'Isolated presenter on green screen for testing Chroma Key background removal.',
+  },
+  {
+    id: 'vid-tech-abstract',
+    title: 'Quantum Particles',
+    type: 'video',
+    category: 'Background',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    duration: 11,
+    thumbnail: 'https://images.unsplash.com/photo-1507499739999-097706ad8914?auto=format&fit=crop&w=400&q=80',
+    description: 'Dynamic glowing particle network ideal for video backgrounds.',
+  },
+  {
+    id: 'vid-nature-sunset',
+    title: 'Golden Hour Coast',
+    type: 'video',
+    category: 'Sample Video',
+    url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+    duration: 14,
+    thumbnail: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80',
+    description: 'Serene sunset ocean waves crashing on golden sands.',
+  },
+
+  // Audio / Music
+  {
+    id: 'audio-lofi-beat',
+    title: 'Sunset Lofi Lounge',
+    type: 'audio',
+    category: 'Music',
+    url: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3',
+    duration: 60,
+    description: 'Chill, smooth lofi hip-hop beat perfect for podcasts & vlogs.',
+  },
+  {
+    id: 'audio-cyber-synth',
+    title: 'Neon Cyberdrive Synth',
+    type: 'audio',
+    category: 'Music',
+    url: 'https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a2a51f.mp3?filename=synthwave-80s-110045.mp3',
+    duration: 45,
+    description: 'High energy retro synthwave track for gaming and tech videos.',
+  },
+  {
+    id: 'sfx-whoosh-transition',
+    title: 'Cinematic Whoosh SFX',
+    type: 'audio',
+    category: 'SFX',
+    url: 'https://cdn.pixabay.com/download/audio/2022/03/24/audio_3d1a8c3e80.mp3?filename=whoosh-6316.mp3',
+    duration: 2,
+    description: 'Deep cinematic impact whoosh for quick transitions.',
+  },
+  {
+    id: 'sfx-glitch-digital',
+    title: 'Digital Glitch Zap',
+    type: 'audio',
+    category: 'SFX',
+    url: 'https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3?filename=glitch-sound-effect-110034.mp3',
+    duration: 1.5,
+    description: 'Electrifying digital glitch sound effect.',
+  },
+
+  // Overlays / Stickers
+  {
+    id: 'overlay-vhs-frame',
+    title: 'Retro Play Badge',
+    type: 'image',
+    category: 'Overlay',
+    url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80',
+    duration: 10,
+    description: 'Translucent retro VHS timestamp overlay badge.',
+  },
+  {
+    id: 'overlay-like-subscribe',
+    title: 'Like & Subscribe Callout',
+    type: 'image',
+    category: 'Overlay',
+    url: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=600&q=80',
+    duration: 8,
+    description: 'Animated social media engagement button overlay.',
+  }
+];

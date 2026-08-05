@@ -1,0 +1,6 @@
+{
+  "name": "ClipCraft - Arabic Mobile Video Editor",
+  "description": "A beginner-friendly mobile video editor inspired by CapCut for Arabic and English users, featuring timeline editing, AI video enhancements, frame interpolation, and 4K/8K export.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
